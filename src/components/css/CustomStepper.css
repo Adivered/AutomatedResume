@@ -1,0 +1,52 @@
+/* styles.css */
+.root {
+    background-color: transparent;
+    top: 0;
+    width: 400px;
+    .MuiSvgIcon-root.Mui-completed {
+        color: oklch(81.47% 0.215 139.76);
+    }
+
+    .MuiSvgIcon-root:not(.Mui-completed){
+          color: #eaeaf0;
+    }
+    .MuiSvgIcon-root.Mui-active {
+        color: oklch(70% 0.217 351.53);
+        /*color: #ff00ff;*/
+    }
+    .MuiStepConnector-line {
+        border-top-width: 4px;
+    }
+    .MuiStepConnector-root.Mui-active .MuiStepConnector-line {
+        border-color: oklch(70% 0.217 351.53);
+    }
+    .MuiStepConnector-root.Mui-completed .MuiStepConnector-line {
+        border-color: oklch(70% 0.217 351.53);
+      }
+    .MuiStepConnector-horizontal.MuiStepConnector-alternativeLabel.Mui-active {
+    color: #784af4;
+    }
+  }
+  
+/*StepLabel*/
+.step-label {
+    .MuiStepLabel-label {
+      color: #eaeaf0;
+      font-size: 9px;
+      text-align: center;
+      width: 43px;
+    }
+  
+    .MuiStepLabel-label.Mui-completed.MuiStepLabel-alternativeLabel {
+      color: black;
+      font-size: 9px;
+      width: 43px;
+    }
+  
+    .MuiStepLabel-label.Mui-active.MuiStepLabel-alternativeLabel {
+      color: oklch(70% 0.217 351.53);
+      font-size: 10px;
+      font-weight: bold;
+      width: 43px;
+    }
+  }

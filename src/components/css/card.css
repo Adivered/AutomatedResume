@@ -1,0 +1,41 @@
+
+/*--------------------
+Checkout
+--------------------*/
+.checkout {
+  margin: 150px auto 30px;
+  position: relative;
+  width: 100%;
+  background: white;
+  border-radius: 15px;
+  padding: 160px 45px 30px;
+  box-shadow: 0 10px 40px hsla(0, 0, 0, .1);
+}
+
+/*--------------------
+Credit Card
+--------------------*/
+.credit-card-box {
+  perspective: 1000;
+  width: 400px;
+  height: 280px;
+  position: absolute;
+  top: -112px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  .front {
+    width: 400px;
+    height: 250px;
+    border-radius: 15px;
+    backface-visibility: hidden;
+    background: transparent;
+    position: absolute;
+    color: #fff;
+    top: 0;
+    left: 0;
+    text-shadow: 0 1px 1px hsla(0, 0, 0, 0.3);
+    box-shadow: 0 1px 6px hsla(0, 0, 0, 0.3);
+
+  }
+}

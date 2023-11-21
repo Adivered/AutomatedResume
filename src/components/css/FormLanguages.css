@@ -1,0 +1,73 @@
+.view{
+    height: 100%;
+    width: 90%;
+
+}
+.react-swipeable-view-container{
+    transition: transform 0.55s cubic-bezier(0.15, 0.3, 0.25, 1) 0s, height 0.55s cubic-bezier(0.15, 0.3, 0.25, 1) 0s !important;
+    
+}
+
+.MuiGrid-root.MuiGrid-container .grid-size{
+    height: 100%;
+    margin-top: 30px;
+    padding: 22px;
+    
+}
+
+.MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-animated.MuiFormLabel-colorPrimary{
+    color: oklch(35.88% 0.047 351.53);
+}
+.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.Mui-selected.tab{
+    color:oklch(35.88% 0.047 351.53);
+    font-weight: bold;
+}
+
+.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary{
+    font-size: 11pt;    
+}
+
+.MuiTabs-indicator{
+    background-color: oklch(35.88% 0.047 351.53) !important;
+    
+}
+
+.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary{
+    color: oklch(35.88% 0.047 351.53);
+}
+
+.input-label{
+    text-align: left;
+    padding: 2px;
+    margin-top: 12px;
+    
+}
+
+
+.MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-animated.MuiFormLabel-colorPrimary.MuiInputLabel-root.MuiInputLabel-animated{
+    font-weight: bold;
+    text-shadow: 0px 0.4px 2px white;
+    
+}
+.MuiAutocomplete-input.MuiAutocomplete-inputFocused.input-label{
+    color: oklch(35.88% 0.047 351.53);
+}
+
+.component-lang .MuiAutocomplete-input {
+    color:oklch(35.88% 0.047 351.53);
+}
+.component-level .MuiAutocomplete-input {
+    color:oklch(35.88% 0.047 351.53);
+    
+}
+
+.component-lang .MuiOutlinedInput{
+    width: 100%;
+}
+
+.component-lang .MuiOutlinedInput-notchedOutline{
+    border-color: oklch(70.8% 0.217 351.53) !important;
+}
+.component-level .MuiOutlinedInput-notchedOutline{
+    border-color: oklch(70.8% 0.217 351.53) !important;
+}
